@@ -1,12 +1,5 @@
-<a name="readme-top"></a>
-
 <div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-
-  <br/>
-
-  <h3><b>Olin Chat</b></h3>
-
+  <img src="logo.png" alt="logo" width="140"  height="auto" />
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -24,7 +17,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -90,7 +83,7 @@ The components in the application are styled with pre-written CSS and code to pr
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> See for yourself.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -100,7 +93,7 @@ The components in the application are styled with pre-written CSS and code to pr
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> D
 
 To get a local copy up and running, follow these steps.
 
@@ -250,11 +243,11 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
-  - [Answer_1]
+- **[]**
+  - []
 
-- **[Question_2]**
-  - [Answer_2]
+- **[]**
+  - []
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
