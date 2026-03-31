@@ -1,42 +1,20 @@
+import request from "supertest";
+import app from "./app";
 
+describe("App Endpoints", () => {
+  describe("GET /", () => {
+    it('should return 200 OK with "hello world"', async () => {
+      const response = await request(app).get("/");
+      expect(response.status).toBe(200);
+      expect(response.text).toBe("Hello World");
+    });
+  });
 
-const request = require('supertest');
-
-// const app = require('./app');
-const { Server, app } = require("./app")
-
-describe("Test app component", () => {
-
-    test("Test the Get Request / Route", () => {
-        return request(app).get('/')
-            .expect('Content-Type', "text/html; charset=utf-8")
-            .expect(200)
-            .then((response: Response) => {
-                expect(response.text).toBe("hello world")
-            })
-    })
-
-
-
-    test("Test The /data Route", () => {
-        return request(app).get("/data")
-            .expect('Content-Type', 'application/json; charset=utf-8')
-            .expect(200)
-            .then((response: Response) => {
-                expect(response.text).toBe(
-                    JSON.stringify({
-                        data: 'success',
-                        Type: true,
-                    })
-                )
-            })
-
-
-    })
-
-    afterAll(() => {
-        Server.close(() => {
-        })
-    })
-
-})
+  describe("GET /data", () => {
+    it("should return 200 OK with a success JSON object", async () => {
+      const response = await request(app).get("/data");
+      expect(response.status).toBe(200);
+      expect(response.body).toEqual({ data: "success" });
+    });
+  });
+});

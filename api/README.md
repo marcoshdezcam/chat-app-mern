@@ -1,3 +1,6 @@
+<!-- markdownlint-disable-file MD033 -->
+<!-- markdownlint-disable-file MD041 -->
+
 <div align="center">
   <img src="logo.png" alt="logo" width="140"  height="auto" />
 </div>
@@ -137,7 +140,7 @@ Example command:
 
 ### 🚀 Usage
 
-## How to Start Application.
+## How to Start Application
 
 If you look up the script section on the package.json file you can get four command `Start` `build` `dev` and `test` If you want to start the Server you should run
 
@@ -145,7 +148,7 @@ If you look up the script section on the package.json file you can get four comm
 npm run start
 ```
 
-npm run start or ` npm start` command starts your app.
+npm run start or `npm start` command starts your app.
 
 ## How to Create a build in Typescript-Express
 
